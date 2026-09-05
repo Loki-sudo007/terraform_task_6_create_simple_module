@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-module "simple_module" {
+module "resource_group_storage" {
   source  = "Loki-sudo007/resource-group-storage/azurerm"
   version = "1.0.0"
 
